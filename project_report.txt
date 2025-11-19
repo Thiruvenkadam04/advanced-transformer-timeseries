@@ -1,0 +1,18 @@
+PROJECT REPORT: Transformer-based Multivariate Time Series Forecasting (Baseline Outputs)
+
+1. DATA
+- multivariate_series.csv (6 features, 2500 timesteps)
+
+2. BASELINE (fallback due to missing PyTorch in environment)
+- Baseline predictions generated using repeated weekly pattern + small trend extrapolation.
+- This is a deterministic baseline used to produce submission-ready outputs when PyTorch is unavailable.
+
+3. EVALUATION
+- Test RMSE: 6.5931
+- Test MAE: 5.2264
+
+4. FILES
+- multivariate_series.csv
+- test_predictions_sample.csv
+- evaluation_metrics.csv
+- (No trained PyTorch model could be created in this environment due to missing libs; include model training in your local/GPU environment if needed.)
